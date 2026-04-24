@@ -20,7 +20,7 @@ This project was developed and tested using:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/smooth-avatar-system.git
+    git clone https://github.com/esraseezgin/smooth-avatar-system.git
     cd smooth-avatar-system
     ```
 
