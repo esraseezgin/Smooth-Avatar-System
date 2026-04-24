@@ -12,31 +12,33 @@ A real-time 2D digital avatar system developed using **MediaPipe** and **OpenCV*
 ## Technical Specifications
 
 This project was developed and tested using:
-* **Python:** 3.10
-* **Environment:** Windows (optimized with `cv2.CAP_DSHOW`)
-* **Main Libraries:** OpenCV-Python, MediaPipe (Legacy version)
+* **Python:** 3.10  
+* **Environment:** Windows (optimized with `cv2.CAP_DSHOW`)  
+* **Main Libraries:** OpenCV-Python, MediaPipe  
 
 ## Installation & Usage
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/SmoothAvatarSystem.git](https://github.com/yourusername/SmoothAvatarSystem.git)
-    cd SmoothAvatarSystem
+    git clone https://github.com/yourusername/smooth-avatar-system.git
+    cd smooth-avatar-system
     ```
 
-2.  **Install dependencies:**
+2. **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Run the application:**
+3. **Run the application:**
     ```bash
-    python puppet.py
+    python main.py
     ```
 
 ## Controls
-* **Q Key:** Press 'q' to safely release the camera and exit the application.
-* **Smoothing Adjustment:** You can modify the `alpha` parameter in the `smooth()` function to change the balance between latency and stability.
 
-##  About the Project
-Developed as part of an exploration into Computer Vision and Human-Computer Interaction (HCI). The goal was to create a stable tracking system that could serve as a foundation for gesture-controlled applications or virtual character puppetry.
+* **Q Key:** Press `q` to safely release the camera and exit the application.  
+* **Smoothing Adjustment:** You can modify the `alpha` parameter in the `smooth()` function to change the balance between responsiveness and smoothness.
+
+## About the Project
+
+Developed as part of an exploration into Computer Vision and Human-Computer Interaction (HCI). The goal was to create a stable tracking system that can serve as a foundation for gesture-controlled applications or virtual character puppetry.
